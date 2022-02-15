@@ -1,25 +1,16 @@
 # Simple Random String
+
  Simple, random string generator
-
-## Installation
-```bash
-flutter pub add randomstring_dart
-
-or add to
-
-dependencies:
-  randomstring_dart: ^0.0.1
-```
 
 ## Features
 
-  * Lower characters
-  * Upper characters
-  * Numbers
-  * Customizable special characters
-  * Repeatable or not, special characters
+* Lower characters
+* Upper characters
+* Numbers
+* Customizable special characters
+* Repeatable or not, special characters
 
-### options and defaults
+## options and defaults
 
 ```dart
 String getRandomString({
@@ -34,7 +25,7 @@ String getRandomString({
 
 ```
 
-### basic usage
+## basic usage
 
 ```dart
 import 'package:randomstring_dart/randomstring_dart.dart';
