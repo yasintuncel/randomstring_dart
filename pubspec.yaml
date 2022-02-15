@@ -1,6 +1,6 @@
 name: randomstring_dart
 description: Simple, random string generator
-version: 0.0.2
+version: 0.0.4
 homepage: https://github.com/yasintuncel/randomstring_dart
 
 environment:
