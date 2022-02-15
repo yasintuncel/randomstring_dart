@@ -3,12 +3,12 @@
 
 ## Installation
 ```bash
-flutter pub add randomstring_yt
+flutter pub add randomstring_dart
 
 or add to
 
 dependencies:
-  randomstring_yt: ^0.0.1
+  randomstring_dart: ^0.0.1
 ```
 
 ## Features
@@ -29,14 +29,15 @@ String getRandomString({
   int specialsCount = 1,
   String specials = '_',
   bool canSpecialRepeat = true,
-}){...}
+})
+{...}
 
 ```
 
 ### basic usage
 
 ```dart
-import 'package:randomstring_yt/randomstring_yt.dart';
+import 'package:randomstring_dart/randomstring_dart.dart';
 
 final rs = RandomString();
 String result = rs.getRandomString();
@@ -49,7 +50,7 @@ print(result);
 ## options
 
 ```dart
-import 'package:randomstring_yt/randomstring_yt.dart';
+import 'package:randomstring_dart/randomstring_dart.dart';
 
 final rs = RandomString();
 String result = rs.getRandomString(
@@ -68,7 +69,7 @@ print(result);
 ## special not repeat
 
 ```dart
-import 'package:randomstring_yt/randomstring_yt.dart';
+import 'package:randomstring_dart/randomstring_dart.dart';
 
 final rs = RandomString();
 String result = rs.getRandomString(
