@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:randomstring_yt/randomstring_yt.dart';
+import 'package:randomstring_dart/randomstring_dart.dart';
 
 void main() {
   final rs = RandomString();
